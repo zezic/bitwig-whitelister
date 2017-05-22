@@ -13,6 +13,6 @@ Where UUID is UUID of your modulator or device and Name is it's name. You can us
 ```bash
 git clone --recursive https://github.com/zezic/bitwig-whitelister.git
 cd bitwig-whitelister
-cp /opt/bitwig-studio/bin/bitwig.jar
+cp /opt/bitwig-studio/bin/bitwig.jar ./bitwig.jar
 python3 whitelist.py --modulator "7146bcd7-f813-44c6-96e5-2e9d77093a81:Zath" --jar bitwig.jar --output bitwig-patched.jar
 ```

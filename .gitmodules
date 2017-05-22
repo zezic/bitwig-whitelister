@@ -1,0 +1,3 @@
+[submodule "libs/krakatau"]
+	path = libs/krakatau
+	url = https://github.com/Storyyeller/Krakatau
